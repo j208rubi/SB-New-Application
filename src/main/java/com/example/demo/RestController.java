@@ -10,4 +10,8 @@ public class RestController {
 		return "Hello All Gitis";
 	}
 
+	@GetMapping("/welcome1")
+	public String message1() {
+		return "Hello All Gitis1";
+	}
 }
