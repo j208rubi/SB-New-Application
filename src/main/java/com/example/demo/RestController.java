@@ -15,7 +15,7 @@ public class RestController {
 		return "Hello All Gitis1";
 	}
 	
-	@GetMapping("/welcome2")
+	@GetMapping("/welcome2develop")
 	public String message122() {
 		return "Hello All Gitis1-122";
 	}
